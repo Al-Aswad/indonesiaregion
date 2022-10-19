@@ -1,0 +1,20 @@
+{
+    "name": "aswadwk/indonesiaregion",
+    "description": "Library Region indonesia, this is update from lib azishapidin/indoregion",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aswadwk\\Indonesiaregion\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hajar Aswad",
+            "email": "hajaraswadkom@gmail.com"
+        }
+    ],
+    "require": {
+        "parsecsv/php-parsecsv": "^1.1"
+    }
+}
