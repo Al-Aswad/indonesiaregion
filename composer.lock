@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d43d23606317a03e1614defd1cb8858",
+    "content-hash": "cfcc23a826a87250f691eac84e2224ec",
     "packages": [
         {
             "name": "parsecsv/php-parsecsv",
