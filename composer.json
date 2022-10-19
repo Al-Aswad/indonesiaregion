@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Aswadwk\\Indonesiaregion\\": "src/"
-        }
+        },
+        "files": [
+            "src/RawDataGetter.php"
+        ]
     },
     "authors": [
         {
@@ -14,6 +17,14 @@
             "email": "hajaraswadkom@gmail.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aswadwk\\Indonesiaregion\\IndoRegionServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
     "require": {
         "parsecsv/php-parsecsv": "^1.1"
     }
