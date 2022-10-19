@@ -7,10 +7,10 @@
  *
  */
 
-namespace aswadwk\indonesiaregion;
+namespace Aswadwk\Indonesiaregion;
 
 use Illuminate\Support\ServiceProvider;
-use aswadwk\indonesiaregion\IndoRegionPublishCommand;
+use Aswadwk\Indonesiaregion\IndoRegionPublishCommand;
 
 /**
  * IndoRegion Service Provider

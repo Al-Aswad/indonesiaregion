@@ -7,7 +7,7 @@
  *
  */
 
-namespace aswadwk\indonesiaregion;
+namespace Aswadwk\Indonesiaregion;
 
 use App\Models\Province;
 use App\Models\Regency;

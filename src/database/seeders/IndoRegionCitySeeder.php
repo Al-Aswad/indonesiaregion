@@ -10,7 +10,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use aswadwk\indonesiaregion\RawDataGetter;
+use Aswadwk\Indonesiaregion\RawDataGetter;
 use Illuminate\Support\Facades\DB;
 
 class IndoRegionCitySeeder extends Seeder

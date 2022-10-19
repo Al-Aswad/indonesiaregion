@@ -6,7 +6,7 @@
  * Time: 0:44
  */
 
-namespace aswadwk\indonesiaregion\Traits;
+namespace Aswadwk\Indonesiaregion\Traits;
 
 
 use App\Models\District;

@@ -7,7 +7,7 @@
  *
  */
 
-namespace aswadwk\indonesiaregion;
+namespace Aswadwk\Indonesiaregion;
 
 use ParseCsv\Csv;
 

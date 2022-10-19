@@ -9,7 +9,7 @@
 
 namespace App\Models;
 
-use aswadwk\indonesiaregion\Traits\DistrictTrait;
+use Aswadwk\Indonesiaregion\Traits\DistrictTrait;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Regency;
 use App\Models\Village;

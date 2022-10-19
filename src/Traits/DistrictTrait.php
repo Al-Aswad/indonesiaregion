@@ -6,7 +6,7 @@
  * Time: 23:46
  */
 
-namespace aswadwk\indonesiaregion\Traits;
+namespace Aswadwk\Indonesiaregion\Traits;
 
 
 trait DistrictTrait

@@ -6,7 +6,7 @@
  *
  */
 
-namespace aswadwk\indonesiaregion;
+namespace Aswadwk\Indonesiaregion;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\File;

@@ -9,7 +9,7 @@
 
 namespace App\Models;
 
-use aswadwk\indonesiaregion\Traits\RegencyTrait;
+use Aswadwk\Indonesiaregion\Traits\RegencyTrait;
 use Illuminate\Database\Eloquent\Model;
 
 /**
