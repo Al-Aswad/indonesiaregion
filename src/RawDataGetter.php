@@ -72,6 +72,18 @@ class RawDataGetter
     }
 
     /**
+     * Get villages data.
+     *
+     * @return array
+     */
+    public static function getPostalCodes()
+    {
+        $result = self::getCsvData(self::$path.'/postal-codes.csv');
+
+        return $result;
+    }
+
+    /**
      * Get Data from CSV.
      *
      * @param string $path File Path.
