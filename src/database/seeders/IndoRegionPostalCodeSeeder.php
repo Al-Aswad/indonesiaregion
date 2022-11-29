@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Aswadwk\Indonesiaregion\RawDataGetter;
 use Illuminate\Support\Facades\DB;
 
-class IndoPostalCodeSeeder extends Seeder
+class IndoRegionPostalCodeSeeder extends Seeder
 {
     /**
      * Run the database seeds.

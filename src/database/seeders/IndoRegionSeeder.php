@@ -21,9 +21,9 @@ class IndoRegionSeeder extends Seeder
     public function run()
     {
         $this->call(IndoRegionProvinceSeeder::class);
-        $this->call(IndoRegionRegencySeeder::class);
+        $this->call(IndoRegionCitySeeder::class);
         $this->call(IndoRegionDistrictSeeder::class);
         $this->call(IndoRegionVillageSeeder::class);
-        $this->call(IndoPostalCodeSeeder::class);
+        $this->call(IndoRegionPostalCodeSeeder::class);
     }
 }

@@ -22,11 +22,11 @@ class CreatePostalCodesTables extends Migration
     {
         Schema::create('postal_codes', function(Blueprint $table){
             $table->id();
-            $table->string('village', 30);
-            $table->string('district', 30);
+            $table->string('village', 100);
+            $table->string('district', 100);
             $table->string('city', 30);
             $table->string('province', 30);
-            $table->string('postal_code', 30);
+            $table->string('postal_code', 30)->index();
         });
     }
 
