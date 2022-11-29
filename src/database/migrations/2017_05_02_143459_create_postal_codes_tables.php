@@ -21,13 +21,12 @@ class CreatePostalCodesTables extends Migration
     public function up()
     {
         Schema::create('postal_codes', function(Blueprint $table){
-            $table->char('id', 10)->index();
-            $table->char('district_id', 7);
-            $table->string('name', 50);
-            $table->foreign('district_id')
-                ->references('id')
-                ->on('districts')
-                ->onUpdate('cascade')->onDelete('restrict');
+            $table->id();
+            $table->string('village', 30);
+            $table->string('district', 30);
+            $table->string('city', 30);
+            $table->string('province', 30);
+            $table->string('postal_code', 30);
         });
     }
 
