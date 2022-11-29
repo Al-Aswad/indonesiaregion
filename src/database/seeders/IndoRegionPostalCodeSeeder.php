@@ -13,7 +13,7 @@ use Illuminate\Database\Seeder;
 use Aswadwk\Indonesiaregion\RawDataGetter;
 use Illuminate\Support\Facades\DB;
 
-class IndoRegionCitySeeder extends Seeder
+class IndoPostalCodeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -25,11 +25,11 @@ class IndoRegionCitySeeder extends Seeder
     public function run()
     {
         // Get Data
-        $regencies = RawDataGetter::getPostalCodes();
+        $postalCodes = RawDataGetter::getPostalCodes();
 
         // Insert Data with Chunk
-        DB::transaction(function() use($regencies) {
-            $collection = collect($regencies);
+        DB::transaction(function() use($postalCodes) {
+            $collection = collect($postalCodes);
             $parts = $collection->chunk(1000);
             foreach ($parts as $subset) {
                 DB::table('postal_codes')->insert($subset->toArray());
